@@ -2,7 +2,7 @@ import FriendslistItem from "../friendslistItem/friendslistItem";
 
 export default function FriendsList({ friends }) {
   return (
-    <ul>
+    <div className="friends-list">
       {friends.map(({ avatar, name, isOnline, id }) => (
         <FriendslistItem
           key={id}
@@ -11,6 +11,6 @@ export default function FriendsList({ friends }) {
           isOnline={isOnline}
         />
       ))}
-    </ul>
+    </div>
   );
 }

@@ -46,7 +46,6 @@ ol {
   display: flex;
   flex-direction: column;
   position: relative;  
-  gap: 3px;
   padding: 5px;
   justify-content: center;
   align-items: center;
@@ -67,7 +66,6 @@ ol {
   flex-direction: column;
   position: relative;
   padding: 5px 15px;
-  gap: 3px;
   justify-content: center;
   align-items: center;
 }
@@ -85,10 +83,23 @@ ol {
 .status-likes {
   display: flex;
   flex-direction: column;
-  gap: 3px;
   padding: 5px 0 0 10px;
   justify-content: center;
   align-items: center;
+}
+
+.friends-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 5px;
+  padding: 10px;
+}
+
+.friends-list-item {
+
+  border: 2px solid black;
+  border-radius: 5%;
+  padding: 5px;
 }
 
 .online {
