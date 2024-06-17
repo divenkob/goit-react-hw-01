@@ -7,23 +7,23 @@ export default function Profile({
   }) {
     return (
       <div className="profile">
-        <div className="description">
-          <img className="description-avatar" src={image} alt="User avatar" />
+        <div className="user">
+          <img className="user-avatar" src={image} alt="User avatar" />
           <p>{name}</p>
           <p>@{tag}</p>
           <p>{location}</p>
         </div>
   
-        <ul className="stats">
-          <li className="stats-folowers">
+        <ul className="status">
+          <li className="status-folowers">
             <span>Followers</span>
             <span>{followers}</span>
           </li>
-          <li className="stats-views">
+          <li className="status-views">
             <span>Views</span>
             <span>{views}</span>
           </li>
-          <li className="stats-likes">
+          <li className="status-likes">
             <span>Likes</span>
             <span>{likes}</span>
           </li>
