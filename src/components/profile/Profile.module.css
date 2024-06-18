@@ -33,7 +33,7 @@ ol {
   align-items: center;
 }
 
-.user-avatar {
+.userAvatar {
   width: 100px;
 }
 
@@ -42,7 +42,7 @@ ol {
   background-color: gray;
 }
 
-.status-folowers {
+.statusFolowers {
   display: flex;
   flex-direction: column;
   position: relative;  
@@ -51,7 +51,7 @@ ol {
   align-items: center;
 }
 
-.status-folowers::before {
+.statusFolowers::before {
   content: "";
   position: absolute;
   top: 0;
@@ -61,7 +61,7 @@ ol {
   width: 1px;
 }
 
-.status-views {
+.statusViews {
   display: flex; 
   flex-direction: column;
   position: relative;
@@ -70,7 +70,7 @@ ol {
   align-items: center;
 }
 
-.status-views::before {
+.statusViews::before {
   content: "";
   position: absolute;
   top: 0;
@@ -80,32 +80,10 @@ ol {
   background-color: lightgray;
 }
 
-.status-likes {
+.statusLikes {
   display: flex;
   flex-direction: column;
   padding: 5px 0 0 10px;
   justify-content: center;
   align-items: center;
-}
-
-.friends-list {
-  display: flex;
-  flex-wrap: nowrap;
-  gap: 5px;
-  padding: 10px;
-}
-
-.friends-list-item {
-
-  border: 2px solid black;
-  border-radius: 5%;
-  padding: 5px;
-}
-
-.online {
-  color: rgb(35, 107, 35);
-}
-
-.offline {
-  color: red;
 }

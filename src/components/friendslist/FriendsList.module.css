@@ -1,0 +1,21 @@
+.friendsList {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 5px;
+    padding: 10px;
+  }
+  
+  .friendsListItem {
+  
+    border: 2px solid black;
+    border-radius: 5%;
+    padding: 5px;
+  }
+  
+  .online {
+    color: rgb(35, 107, 35);
+  }
+  
+  .offline {
+    color: red;
+  }
