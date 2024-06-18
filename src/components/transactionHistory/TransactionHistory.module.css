@@ -1,0 +1,28 @@
+.transactionData {;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+  }
+  
+  .transactionData th, 
+  .transactionData td {
+    padding: 12px 15px;
+  }
+  
+  .transactionData thead tr {
+    background-color: rgb(39, 39, 39);
+    color: #ffffff;
+    text-align: left;
+  }
+  
+  .transactionData tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  .transactionData tbody tr:nth-of-type(even) {
+    background-color: #9d9d9d;
+  }
+  
+
+  
